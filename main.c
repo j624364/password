@@ -6,7 +6,7 @@
 FILE* random_file;
 const char* random_file_path = "/dev/random";
 
-char* character_set = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+char* character_set = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!%^&*()-=_+{}~[]#;':@,./<>?";
 
 int random_integer() {
 	char buffer[sizeof(int)];
